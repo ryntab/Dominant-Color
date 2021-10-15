@@ -1,18 +1,14 @@
-# Dominant Color
-A WordPress plugin to automatically save the dominant color and a color palette for an attachment image into post_meta.
 
-Uses [ksubileau/color-thief-php](https://github.com/ksubileau/color-thief-php) as it's core.
+`~Current Version:1.0.0~`
 
-### Usage
+# Dominant Color 🎨
 
-The dominant color and color palette is automatically saved on upload and edit to post meta.
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"><img src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white">
 
-The dominant color can be overridden in the media gallery with any color from the palette in the media gallery.
+A product configurator for Woocommerce that uses a headless Nuxt app and GraphQL.
 
-You need to then use our function get_color_data() to retrieve the "dominant_color_hex" or "dominant_color_rgb" meta key. hex returns a string, including the #, rgb returns an array with key 0 as red, 1 as green, and 2 as blue.
+## Changes
 
-You can also use the meta keys "color_palette_rgb" and "color_palette_hex" to get an array of 8 colors that feature prominently in the image.
+A history of our updates. 
 
-### Apologies
-
-My fellow brits: This was originally called "Dominant Colour", but given that the world we code in uses color, it makes more sense.
+> **Version 1.0.0** **Dev build**
